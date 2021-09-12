@@ -50,7 +50,7 @@ class App extends React.Component {
       <div>
         <h2>Lottery Contract</h2>
         <p>
-          This contract is managed by {this.state.manager}. There are currently{" "}
+          This contract is managed by {" "} {this.state.manager}. There are currently{" "}
           {this.state.players.length} people entered, competing to win{" "}
           {web3.utils.fromWei(this.state.balance, "ether")} ether!
         </p>
