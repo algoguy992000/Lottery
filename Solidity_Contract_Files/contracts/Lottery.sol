@@ -1,10 +1,10 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.8.7;
 
 contract Lottery {
     address public manager;
     address[] public players;
     
-    function Lottery() public {
+    function constructor() public {
         manager = msg.sender;
     }
     
